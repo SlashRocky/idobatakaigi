@@ -84,9 +84,6 @@ export default function SignIn({ setName }) {
             onCompositionEnd={() => {
               setIsComposed(false);
             }}
-
-            // onCompositionStart={() => setIsComposed(true)}
-            // onCompositionEnd={() => setIsComposed(false)}
           />
           <Button
             type="button"
